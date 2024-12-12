@@ -14,7 +14,7 @@ function getAlbum(api) {
 function fillData(results) {
     let cards = "";
 
-    for (let i = 0; i < results.length; i++) {
+    for (let i = 0; i < 20; i++) {
         cards += `
             <div class="col">
                 <div class="card h-100" style="width: 12rem;">

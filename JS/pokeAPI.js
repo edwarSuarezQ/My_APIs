@@ -15,7 +15,7 @@ function getAlbum(api) {
 function fillData(results) {
     let cards = "";
 
-    for (let i = 0; i < results.length; i++) {
+    for (let i = 0; i < 20; i++) {
         fetch(results[i].url)
             .then((response) => response.json())
             .then((details) => {
